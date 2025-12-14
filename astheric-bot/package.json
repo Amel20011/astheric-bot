@@ -1,0 +1,27 @@
+{
+  "name": "astheric-bot",
+  "version": "1.0.0",
+  "description": "🌸 WhatsApp Bot with Interactive Menu using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "astheric",
+    "nodejs"
+  ],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^6.0.0",
+    "@hapi/boom": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
